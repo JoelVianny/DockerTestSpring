@@ -15,21 +15,10 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @NotNull
-    @Column
     private String name;
-
-    @NotNull
-    @Column
     private String surname;
-    @NotNull
-    @Column
     private String patronymic;
-    @NotNull
-    @Column
-    private String groupStudent;
-    @NotNull
-    @Column
+    private String numberGroup;
     private  int level;
 
 }
